@@ -1,0 +1,6 @@
+@SupplyChainManager.BFF_HostAddress = http://localhost:5034
+
+GET {{SupplyChainManager.BFF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

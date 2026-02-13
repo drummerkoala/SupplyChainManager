@@ -1,0 +1,33 @@
+# --- .NET ---
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userprefs
+*.launchsettings.json
+
+# --- Node.js / React ---
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- OS / Tools ---
+.DS_Store
+Thumbs.db
+.vscode/
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+*.swp
+
+# --- Docker ---
+docker-compose.override.yml

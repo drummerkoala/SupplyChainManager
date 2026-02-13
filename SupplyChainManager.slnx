@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/core/SupplyChainManager.Shared/SupplyChainManager.Shared.csproj" Id="f3b94ed6-0de2-4161-9632-49de481f4d0b" />
+  </Folder>
+  <Folder Name="/src/Gateways/">
+    <Project Path="src/gateways/SupplyChainManager.BFF/SupplyChainManager.BFF.csproj" Id="c56e7dc9-ff5b-4251-be3d-19d20a73903a" />
+  </Folder>
+  <Folder Name="/src/Services/">
+    <Project Path="src/services/SupplyChainManager.Catalog/SupplyChainManager.Catalog.csproj" Id="661b5ba9-9b63-4ec0-9660-e67e56e7ed33" />
+    <Project Path="src/services/SupplyChainManager.Ordering/SupplyChainManager.Ordering.csproj" Id="41c42f00-30df-467b-ba43-e30b089c9e31" />
+  </Folder>
+</Solution>
