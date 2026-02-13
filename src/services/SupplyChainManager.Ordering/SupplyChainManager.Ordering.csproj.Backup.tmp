@@ -11,11 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\core\SupplyChainManager.Shared\SupplyChainManager.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Entities\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

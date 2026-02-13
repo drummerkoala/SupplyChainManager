@@ -9,5 +9,6 @@
   <Folder Name="/src/Services/">
     <Project Path="src/services/SupplyChainManager.Catalog/SupplyChainManager.Catalog.csproj" Id="661b5ba9-9b63-4ec0-9660-e67e56e7ed33" />
     <Project Path="src/services/SupplyChainManager.Ordering/SupplyChainManager.Ordering.csproj" Id="41c42f00-30df-467b-ba43-e30b089c9e31" />
+    <Project Path="src/services/SupplyChainManager.Inventory/SupplyChainManager.Inventory.csproj" Id="00771708-205a-4f59-8bd7-15be8c995600" />
   </Folder>
 </Solution>

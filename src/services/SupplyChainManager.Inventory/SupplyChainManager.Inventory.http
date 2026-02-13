@@ -1,0 +1,6 @@
+@SupplyChainManager.Inventory_HostAddress = http://localhost:5177
+
+GET {{SupplyChainManager.Inventory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
