@@ -28,6 +28,8 @@ namespace SupplyChainManager.Ordering.Entities
 
         public string? DeletedBy { get; set; }
 
+        public virtual List<OrderItem>? Items { get; set; }
+
         private Order() { }
 
         public Order(Guid customerId, decimal totalAmount)

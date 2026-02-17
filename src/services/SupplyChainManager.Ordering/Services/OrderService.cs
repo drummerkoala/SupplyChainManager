@@ -15,5 +15,10 @@ namespace SupplyChainManager.Ordering.Services
             _orderRepository = orderRepository;
             _orderItemRepository = orderItemRepository;
         }
+
+        public Task GetAllOrders()
+        {
+            return Task.CompletedTask;
+        }
     }
 }

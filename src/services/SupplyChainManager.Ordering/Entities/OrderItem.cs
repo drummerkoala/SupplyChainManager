@@ -1,4 +1,5 @@
-﻿using SupplyChainManager.Shared.Abstractions.Domain;
+﻿using SupplyChainManager.Catalog.Entities;
+using SupplyChainManager.Shared.Abstractions.Domain;
 
 namespace SupplyChainManager.Ordering.Entities
 {
@@ -27,6 +28,10 @@ namespace SupplyChainManager.Ordering.Entities
         public DateTime? DeletedAt { get; set; }
 
         public string? DeletedBy { get; set; }
+
+        public virtual Order Order { get; set; }
+
+        public virtual Product Product { get; set; }
 
         private OrderItem() { }
 
